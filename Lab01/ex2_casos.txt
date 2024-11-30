@@ -1,0 +1,6 @@
+n1>=n2 -> n1>=n3 -> n1 = max -> n2>=n3?
+		    n1 = med -> n3 = max -> n2 = min
+n2>=n3 -> n2 = max -> n1>=n3 ou n2 = med -> n3 = min -> n1 = max
+          n2 = med -> n1 = min -> n3 = max ou n2 = min,n3=med,n1=max
+n1>=n3 -> n1 = med -> n3 = min
+	  n3 = med -> n1 = min
